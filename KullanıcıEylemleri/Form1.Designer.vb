@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PBoxResim = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -37,6 +38,12 @@ Partial Class Form1
         Me.TBoxSoyad = New System.Windows.Forms.TextBox()
         Me.BtnVazgec = New System.Windows.Forms.Button()
         Me.ResimOFD = New System.Windows.Forms.OpenFileDialog()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TBoxEposta = New System.Windows.Forms.TextBox()
+        Me.TBoxSifre = New System.Windows.Forms.TextBox()
+        Me.TBoxTekrar = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.PBoxResim, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -47,6 +54,7 @@ Partial Class Form1
         Me.PBoxResim.Location = New System.Drawing.Point(38, 48)
         Me.PBoxResim.Name = "PBoxResim"
         Me.PBoxResim.Size = New System.Drawing.Size(154, 137)
+        Me.PBoxResim.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PBoxResim.TabIndex = 0
         Me.PBoxResim.TabStop = False
         '
@@ -93,7 +101,7 @@ Partial Class Form1
         'BtnKaydet
         '
         Me.BtnKaydet.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.BtnKaydet.Location = New System.Drawing.Point(240, 248)
+        Me.BtnKaydet.Location = New System.Drawing.Point(241, 269)
         Me.BtnKaydet.Name = "BtnKaydet"
         Me.BtnKaydet.Size = New System.Drawing.Size(105, 45)
         Me.BtnKaydet.TabIndex = 5
@@ -127,7 +135,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.TBoxCevap)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Location = New System.Drawing.Point(516, 25)
+        Me.Panel1.Location = New System.Drawing.Point(724, 38)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(272, 233)
         Me.Panel1.TabIndex = 8
@@ -164,7 +172,7 @@ Partial Class Form1
         'BtnVazgec
         '
         Me.BtnVazgec.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.BtnVazgec.Location = New System.Drawing.Point(391, 248)
+        Me.BtnVazgec.Location = New System.Drawing.Point(376, 269)
         Me.BtnVazgec.Name = "BtnVazgec"
         Me.BtnVazgec.Size = New System.Drawing.Size(105, 45)
         Me.BtnVazgec.TabIndex = 11
@@ -175,11 +183,70 @@ Partial Class Form1
         '
         Me.ResimOFD.FileName = "OpenFileDialog1"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label5.Location = New System.Drawing.Point(491, 38)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(72, 20)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "E-posta:"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label6.Location = New System.Drawing.Point(491, 115)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(49, 20)
+        Me.Label6.TabIndex = 13
+        Me.Label6.Text = "Şifre:"
+        '
+        'TBoxEposta
+        '
+        Me.TBoxEposta.Location = New System.Drawing.Point(495, 71)
+        Me.TBoxEposta.Name = "TBoxEposta"
+        Me.TBoxEposta.Size = New System.Drawing.Size(177, 22)
+        Me.TBoxEposta.TabIndex = 14
+        '
+        'TBoxSifre
+        '
+        Me.TBoxSifre.Location = New System.Drawing.Point(495, 153)
+        Me.TBoxSifre.Name = "TBoxSifre"
+        Me.TBoxSifre.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TBoxSifre.Size = New System.Drawing.Size(177, 22)
+        Me.TBoxSifre.TabIndex = 15
+        '
+        'TBoxTekrar
+        '
+        Me.TBoxTekrar.Location = New System.Drawing.Point(495, 238)
+        Me.TBoxTekrar.Name = "TBoxTekrar"
+        Me.TBoxTekrar.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TBoxTekrar.Size = New System.Drawing.Size(177, 22)
+        Me.TBoxTekrar.TabIndex = 17
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label7.Location = New System.Drawing.Point(491, 200)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(96, 20)
+        Me.Label7.TabIndex = 16
+        Me.Label7.Text = "Şifre Tekar:"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(857, 450)
+        Me.ClientSize = New System.Drawing.Size(1020, 369)
+        Me.Controls.Add(Me.TBoxTekrar)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.TBoxSifre)
+        Me.Controls.Add(Me.TBoxEposta)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.BtnVazgec)
         Me.Controls.Add(Me.TBoxSoyad)
         Me.Controls.Add(Me.TBoxAd)
@@ -190,6 +257,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PBoxResim)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Kullanıcı Kayıt"
@@ -216,4 +284,10 @@ Partial Class Form1
     Friend WithEvents TBoxSoyad As TextBox
     Friend WithEvents BtnVazgec As Button
     Friend WithEvents ResimOFD As OpenFileDialog
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TBoxEposta As TextBox
+    Friend WithEvents TBoxSifre As TextBox
+    Friend WithEvents TBoxTekrar As TextBox
+    Friend WithEvents Label7 As Label
 End Class
