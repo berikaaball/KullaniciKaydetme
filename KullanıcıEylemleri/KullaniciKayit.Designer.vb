@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class KullaniciKayit
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(KullaniciKayit))
         Me.PBoxResim = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -62,7 +62,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label1.Location = New System.Drawing.Point(236, 38)
+        Me.Label1.Location = New System.Drawing.Point(236, 48)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(60, 20)
         Me.Label1.TabIndex = 1
@@ -72,7 +72,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label2.Location = New System.Drawing.Point(236, 115)
+        Me.Label2.Location = New System.Drawing.Point(236, 106)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(86, 20)
         Me.Label2.TabIndex = 2
@@ -92,7 +92,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label4.Location = New System.Drawing.Point(16, 134)
+        Me.Label4.Location = New System.Drawing.Point(16, 81)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(77, 20)
         Me.Label4.TabIndex = 4
@@ -101,7 +101,7 @@ Partial Class Form1
         'BtnKaydet
         '
         Me.BtnKaydet.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.BtnKaydet.Location = New System.Drawing.Point(241, 269)
+        Me.BtnKaydet.Location = New System.Drawing.Point(360, 247)
         Me.BtnKaydet.Name = "BtnKaydet"
         Me.BtnKaydet.Size = New System.Drawing.Size(105, 45)
         Me.BtnKaydet.TabIndex = 5
@@ -112,7 +112,7 @@ Partial Class Form1
         '
         Me.CBoxGuvenlikSorusu.AutoSize = True
         Me.CBoxGuvenlikSorusu.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.CBoxGuvenlikSorusu.Location = New System.Drawing.Point(240, 205)
+        Me.CBoxGuvenlikSorusu.Location = New System.Drawing.Point(240, 186)
         Me.CBoxGuvenlikSorusu.Name = "CBoxGuvenlikSorusu"
         Me.CBoxGuvenlikSorusu.Size = New System.Drawing.Size(190, 24)
         Me.CBoxGuvenlikSorusu.TabIndex = 6
@@ -137,7 +137,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Location = New System.Drawing.Point(724, 38)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(272, 233)
+        Me.Panel1.Size = New System.Drawing.Size(272, 166)
         Me.Panel1.TabIndex = 8
         '
         'TBoxSoru
@@ -149,7 +149,7 @@ Partial Class Form1
         '
         'TBoxCevap
         '
-        Me.TBoxCevap.Location = New System.Drawing.Point(20, 168)
+        Me.TBoxCevap.Location = New System.Drawing.Point(20, 115)
         Me.TBoxCevap.Name = "TBoxCevap"
         Me.TBoxCevap.Size = New System.Drawing.Size(174, 22)
         Me.TBoxCevap.TabIndex = 12
@@ -164,7 +164,7 @@ Partial Class Form1
         '
         'TBoxSoyad
         '
-        Me.TBoxSoyad.Location = New System.Drawing.Point(240, 153)
+        Me.TBoxSoyad.Location = New System.Drawing.Point(240, 129)
         Me.TBoxSoyad.Name = "TBoxSoyad"
         Me.TBoxSoyad.Size = New System.Drawing.Size(174, 22)
         Me.TBoxSoyad.TabIndex = 10
@@ -172,7 +172,7 @@ Partial Class Form1
         'BtnVazgec
         '
         Me.BtnVazgec.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.BtnVazgec.Location = New System.Drawing.Point(376, 269)
+        Me.BtnVazgec.Location = New System.Drawing.Point(482, 247)
         Me.BtnVazgec.Name = "BtnVazgec"
         Me.BtnVazgec.Size = New System.Drawing.Size(105, 45)
         Me.BtnVazgec.TabIndex = 11
@@ -187,7 +187,7 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label5.Location = New System.Drawing.Point(491, 38)
+        Me.Label5.Location = New System.Drawing.Point(491, 48)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(72, 20)
         Me.Label5.TabIndex = 12
@@ -197,7 +197,7 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label6.Location = New System.Drawing.Point(491, 115)
+        Me.Label6.Location = New System.Drawing.Point(491, 106)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(49, 20)
         Me.Label6.TabIndex = 13
@@ -212,7 +212,7 @@ Partial Class Form1
         '
         'TBoxSifre
         '
-        Me.TBoxSifre.Location = New System.Drawing.Point(495, 153)
+        Me.TBoxSifre.Location = New System.Drawing.Point(495, 129)
         Me.TBoxSifre.Name = "TBoxSifre"
         Me.TBoxSifre.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TBoxSifre.Size = New System.Drawing.Size(177, 22)
@@ -220,7 +220,7 @@ Partial Class Form1
         '
         'TBoxTekrar
         '
-        Me.TBoxTekrar.Location = New System.Drawing.Point(495, 238)
+        Me.TBoxTekrar.Location = New System.Drawing.Point(495, 188)
         Me.TBoxTekrar.Name = "TBoxTekrar"
         Me.TBoxTekrar.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TBoxTekrar.Size = New System.Drawing.Size(177, 22)
@@ -230,7 +230,7 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label7.Location = New System.Drawing.Point(491, 200)
+        Me.Label7.Location = New System.Drawing.Point(491, 165)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(96, 20)
         Me.Label7.TabIndex = 16
@@ -240,7 +240,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1020, 369)
+        Me.ClientSize = New System.Drawing.Size(1020, 339)
         Me.Controls.Add(Me.TBoxTekrar)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TBoxSifre)

@@ -73,15 +73,33 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Baglanti.vb" />
-    <Compile Include="Form1.vb">
+    <Compile Include="AnaForm.Designer.vb">
+      <DependentUpon>AnaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnaForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Baglanti.vb" />
+    <Compile Include="KullaniciKayit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciKayit.Designer.vb">
+      <DependentUpon>KullaniciKayit.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HashAlgoritma.vb" />
+    <Compile Include="KullaniciGiris.Designer.vb">
+      <DependentUpon>KullaniciGiris.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciGiris.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkaKayit.Designer.vb">
+      <DependentUpon>MarkaKayit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MarkaKayit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,16 +115,43 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SifremiUnuttumFormu.Designer.vb">
+      <DependentUpon>SifremiUnuttumFormu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SifremiUnuttumFormu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunArama.Designer.vb">
+      <DependentUpon>UrunArama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UrunArama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunKayit.Designer.vb">
+      <DependentUpon>UrunKayit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UrunKayit.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="AnaForm.resx">
+      <DependentUpon>AnaForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciKayit.resx">
+      <DependentUpon>KullaniciKayit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciGiris.resx">
+      <DependentUpon>KullaniciGiris.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SifremiUnuttumFormu.resx">
+      <DependentUpon>SifremiUnuttumFormu.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

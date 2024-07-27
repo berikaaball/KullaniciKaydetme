@@ -4,7 +4,7 @@ Imports System.Data.SqlTypes
 Imports System.IO
 Imports System.Security.Cryptography
 Imports System.Security.Policy
-Public Class Form1
+Public Class KullaniciKayit
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Panel1.Visible = False
     End Sub
@@ -16,7 +16,7 @@ Public Class Form1
 
         Ad = TBoxAd.Text.Trim
         Soyad = TBoxSoyad.Text.Trim
-        If Ad.Length < 1 AndAlso Soyad.Length < 1 Then
+        If Ad.Length = 0 AndAlso Soyad.Length = 0 Then
             MessageBox.Show("Kullanıcı adı ve soyadı boş olamaz.", "Uyarı")
             Exit Sub
         End If
@@ -25,17 +25,17 @@ Public Class Form1
         SifreTekrar = TBoxTekrar.Text
         Sifre = KodUret(SHA512.Create, Sifre)
         SifreTekrar = KodUret(SHA512.Create, SifreTekrar)
-        If Sifre.Length < 1 AndAlso SifreTekrar.Length < 1 Then
+        If Sifre.Length = 0 AndAlso SifreTekrar.Length = 0 Then
             MessageBox.Show("Şifre ve tekrarı boş geçilemez.", "Hata")
             Exit Sub
         End If
-
-        EPosta = TBoxEposta.Text.Trim
 
         If Sifre <> SifreTekrar Then
             MessageBox.Show("Şifre ve tekrarı eşleşmiyor.", "Hata")
             Exit Sub
         End If
+
+        EPosta = TBoxEposta.Text.Trim
 
         If Not EPostaKontrol(EPosta) Then
             MessageBox.Show("Geçerli bir e-posta adresi girdiğinizden emin olunuz.", "Hata")
@@ -160,7 +160,7 @@ Public Class Form1
     Private Sub TBoxSifre_Validating(sender As Object, e As CancelEventArgs) Handles TBoxSifre.Validating
         Dim Sifre As String = Nothing
 
-        If Not IsAlphabetic(Sifre) Then
+        If IsAlphabetic(Sifre) Then
             MessageBox.Show("Şifreniz sadece harflerden oluşmalıdır. Boşluk, özel karakter veya sayı içermemelidir.", "Uyarı")
             Exit Sub
         End If

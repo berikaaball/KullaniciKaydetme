@@ -12,6 +12,10 @@ Module HashAlgoritma
     End Function
 
     Public Function IsAlphabetic(input As String) As Boolean
+        If input Is Nothing Then
+            Return False
+        End If
+
         For Each c As Char In input
             If Not Char.IsLetter(c) Then
                 Return False

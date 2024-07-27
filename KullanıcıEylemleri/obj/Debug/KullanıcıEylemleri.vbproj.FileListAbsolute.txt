@@ -3,10 +3,13 @@ C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\Kullanıcı
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\bin\Debug\KullanıcıEylemleri.pdb
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\bin\Debug\KullanıcıEylemleri.xml
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.vbproj.AssemblyReference.cache
-C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.Form1.resources
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.Resources.resources
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.vbproj.GenerateResource.cache
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.vbproj.CoreCompileInputs.cache
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.exe
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.xml
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.pdb
+C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.KullaniciKayit.resources
+C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.KullaniciGiris.resources
+C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.SifremiUnuttumFormu.resources
+C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.AnaForm.resources
