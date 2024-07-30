@@ -13,3 +13,4 @@ C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\Kullanıcı
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.KullaniciGiris.resources
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.SifremiUnuttumFormu.resources
 C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.AnaForm.resources
+C:\Users\BERIKA\Desktop\dersler\my\calismalarim\KullanıcıEylemleri\KullanıcıEylemleri\obj\Debug\KullanıcıEylemleri.MarkaKayit.resources

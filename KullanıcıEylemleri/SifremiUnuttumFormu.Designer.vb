@@ -32,9 +32,11 @@ Partial Class SifremiUnuttumFormu
         Me.TBoxSifre = New System.Windows.Forms.TextBox()
         Me.TBoxTekrar = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.BtnKaydet = New System.Windows.Forms.Button()
         Me.BtnVazgec = New System.Windows.Forms.Button()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.BtnKaydet = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -75,7 +77,7 @@ Partial Class SifremiUnuttumFormu
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label3.Location = New System.Drawing.Point(26, 34)
+        Me.Label3.Location = New System.Drawing.Point(28, 3)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(108, 20)
         Me.Label3.TabIndex = 4
@@ -85,7 +87,7 @@ Partial Class SifremiUnuttumFormu
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label4.Location = New System.Drawing.Point(26, 101)
+        Me.Label4.Location = New System.Drawing.Point(26, 70)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(161, 20)
         Me.Label4.TabIndex = 5
@@ -93,14 +95,14 @@ Partial Class SifremiUnuttumFormu
         '
         'TBoxSifre
         '
-        Me.TBoxSifre.Location = New System.Drawing.Point(30, 57)
+        Me.TBoxSifre.Location = New System.Drawing.Point(30, 26)
         Me.TBoxSifre.Name = "TBoxSifre"
         Me.TBoxSifre.Size = New System.Drawing.Size(299, 22)
         Me.TBoxSifre.TabIndex = 6
         '
         'TBoxTekrar
         '
-        Me.TBoxTekrar.Location = New System.Drawing.Point(30, 124)
+        Me.TBoxTekrar.Location = New System.Drawing.Point(30, 93)
         Me.TBoxTekrar.Name = "TBoxTekrar"
         Me.TBoxTekrar.Size = New System.Drawing.Size(299, 22)
         Me.TBoxTekrar.TabIndex = 7
@@ -111,38 +113,53 @@ Partial Class SifremiUnuttumFormu
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.TBoxSifre)
         Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Location = New System.Drawing.Point(44, 147)
+        Me.Panel1.Location = New System.Drawing.Point(43, 138)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(386, 198)
+        Me.Panel1.Size = New System.Drawing.Size(353, 129)
         Me.Panel1.TabIndex = 8
-        '
-        'BtnKaydet
-        '
-        Me.BtnKaydet.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.BtnKaydet.Location = New System.Drawing.Point(93, 377)
-        Me.BtnKaydet.Name = "BtnKaydet"
-        Me.BtnKaydet.Size = New System.Drawing.Size(108, 54)
-        Me.BtnKaydet.TabIndex = 9
-        Me.BtnKaydet.Text = "Kaydet"
-        Me.BtnKaydet.UseVisualStyleBackColor = True
         '
         'BtnVazgec
         '
+        Me.BtnVazgec.Dock = System.Windows.Forms.DockStyle.Fill
         Me.BtnVazgec.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.BtnVazgec.Location = New System.Drawing.Point(221, 377)
+        Me.BtnVazgec.Location = New System.Drawing.Point(116, 3)
         Me.BtnVazgec.Name = "BtnVazgec"
-        Me.BtnVazgec.Size = New System.Drawing.Size(108, 54)
+        Me.BtnVazgec.Size = New System.Drawing.Size(108, 55)
         Me.BtnVazgec.TabIndex = 10
         Me.BtnVazgec.Text = "Vazgeç"
         Me.BtnVazgec.UseVisualStyleBackColor = True
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.ColumnCount = 2
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.BtnKaydet, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.BtnVazgec, 1, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(104, 282)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(227, 61)
+        Me.TableLayoutPanel1.TabIndex = 11
+        '
+        'BtnKaydet
+        '
+        Me.BtnKaydet.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.BtnKaydet.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.BtnKaydet.Location = New System.Drawing.Point(3, 3)
+        Me.BtnKaydet.Name = "BtnKaydet"
+        Me.BtnKaydet.Size = New System.Drawing.Size(107, 55)
+        Me.BtnKaydet.TabIndex = 9
+        Me.BtnKaydet.Text = "Kaydet"
+        Me.BtnKaydet.UseVisualStyleBackColor = True
         '
         'SifremiUnuttumFormu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(496, 465)
-        Me.Controls.Add(Me.BtnVazgec)
-        Me.Controls.Add(Me.BtnKaydet)
+        Me.ClientSize = New System.Drawing.Size(457, 351)
+        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TBoxCevap)
         Me.Controls.Add(Me.TBoxSoru)
@@ -154,6 +171,7 @@ Partial Class SifremiUnuttumFormu
         Me.Text = "SifremiUnuttumFormu"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.TableLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -168,6 +186,7 @@ Partial Class SifremiUnuttumFormu
     Friend WithEvents TBoxSifre As TextBox
     Friend WithEvents TBoxTekrar As TextBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents BtnKaydet As Button
     Friend WithEvents BtnVazgec As Button
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents BtnKaydet As Button
 End Class

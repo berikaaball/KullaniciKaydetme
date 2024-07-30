@@ -75,6 +75,7 @@ Partial Class KullaniciGiris
         '
         Me.TBoxSifre.Location = New System.Drawing.Point(222, 122)
         Me.TBoxSifre.Name = "TBoxSifre"
+        Me.TBoxSifre.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TBoxSifre.Size = New System.Drawing.Size(184, 22)
         Me.TBoxSifre.TabIndex = 4
         '

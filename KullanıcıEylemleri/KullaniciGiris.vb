@@ -61,11 +61,11 @@ Public Class KullaniciGiris
         Try
             SqlBaglanti.Open()
             KTablo.Load(SqlKomut.ExecuteReader)
-            If KTablo.Rows.Count = 1 AndAlso KTablo.Rows(0)("KullaniciAdi") = Ad Then
+            If KTablo.Rows.Count = 1 AndAlso (KTablo.Rows(0)("KullaniciAdi") = Ad) Then
                 SifremiUnuttumFormu.KAdi = KTablo.Rows(0)("KullaniciAdi")
-                SifremiUnuttumFormu.KKayitNo = KTablo.Rows(0)("KullaniciKayitNo")
-                SifremiUnuttumFormu.KSoru = KTablo.Rows(0)("Soru")
-                SifremiUnuttumFormu.KCevap = KTablo.Rows(0)("Cevap")
+                SifremiUnuttumFormu.KKayitNo = KTablo.Rows(0)("KNo")
+                SifremiUnuttumFormu.KSoru = KTablo.Rows(0)("GuvenlikSorusu")
+                SifremiUnuttumFormu.KCevap = KTablo.Rows(0)("SoruYanit")
                 SifremiUnuttumFormu.ShowDialog(Me)
             Else
                 MessageBox.Show("Kullanıcı Adı Hatalı.", "Hata")
@@ -73,7 +73,6 @@ Public Class KullaniciGiris
             End If
         Catch ex As Exception
             MessageBox.Show("Giriş hatası. Hata: " & ex.Message, "Hata")
-            Application.Exit()
         Finally
             SqlBaglanti.Close()
         End Try

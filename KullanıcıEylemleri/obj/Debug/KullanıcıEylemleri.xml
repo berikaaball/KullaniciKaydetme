@@ -22,5 +22,25 @@ KullanıcıEylemleri
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:KullanıcıEylemleri.My.Resources.Resources.Duzenle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:KullanıcıEylemleri.My.Resources.Resources.Ekle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:KullanıcıEylemleri.My.Resources.Resources.Kaydet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:KullanıcıEylemleri.My.Resources.Resources.Sil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

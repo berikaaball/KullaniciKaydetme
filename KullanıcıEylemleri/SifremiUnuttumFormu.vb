@@ -1,15 +1,8 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Security.Cryptography
 Public Class SifremiUnuttumFormu
-    Public KKayitNo As Guid
+    Public KKayitNo As Integer
     Public KAdi, KSoru, KCevap As String
-
-    Private Sub TBoxCevap_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles TBoxCevap.Validating
-        If TBoxCevap.Text = KCevap Then
-            Panel1.Visible = True
-            Me.Size = New Size(514, 512)
-        End If
-    End Sub
 
     Private Sub BtnVazgec_Click(sender As Object, e As EventArgs) Handles BtnVazgec.Click
         Me.DialogResult = DialogResult.Cancel
@@ -19,7 +12,7 @@ Public Class SifremiUnuttumFormu
     Private Sub BtnKaydet_Click(sender As Object, e As EventArgs) Handles BtnKaydet.Click
         Dim Sifre As String = KodUret(SHA512.Create, TBoxSifre.Text)
         Dim Tekrar As String = KodUret(SHA512.Create, TBoxTekrar.Text)
-        If KCevap <> KodUret(SHA512.Create, TBoxCevap.Text) Then
+        If KCevap <> KodUret(SHA512.Create,TBoxCevap.Text) Then
             MessageBox.Show("Yanıtınız doğru değil. Yeni şifre belirleyemezsiniz.", "Hata")
             Exit Sub
         End If
@@ -32,8 +25,8 @@ Public Class SifremiUnuttumFormu
             Exit Sub
         End If
 
-        Dim SqlBaglanti As New SqlConnection
-        Dim sorgu As String = "SELECT * FROM KullaniciKayit WHERE KNo=@KNo ANDALSO Sifre=@Sifre"
+        Dim SqlBaglanti As New SqlConnection(SQLBaglantiCumlesi)
+        Dim sorgu As String = "UPDATE KullaniciKayit SET Sifre=@Sifre WHERE KNo=@KNo"
         Dim SqlKomut As New SqlCommand(sorgu, SqlBaglanti)
         SqlKomut.Parameters.Add("@KNo", SqlDbType.UniqueIdentifier).Value = KKayitNo
         SqlKomut.Parameters.Add("@Sifre", SqlDbType.NVarChar, 128).Value = Sifre
@@ -51,10 +44,7 @@ Public Class SifremiUnuttumFormu
         End Try
     End Sub
 
-
-
     Private Sub SifremiUnuttumFormu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Size = New Size(514, 279)
         TBoxSoru.Text = KSoru
     End Sub
 End Class

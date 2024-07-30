@@ -35,8 +35,8 @@ Partial Class AnaForm
         Me.AramalarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ÜrünAramaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KisaYolToolStrip = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
         Me.PBoxResim = New System.Windows.Forms.PictureBox()
         Me.DurumStatusStrip = New System.Windows.Forms.StatusStrip()
         Me.AnaMenuStrip.SuspendLayout()
@@ -92,20 +92,20 @@ Partial Class AnaForm
         'MarkaKaydıToolStripMenuItem
         '
         Me.MarkaKaydıToolStripMenuItem.Name = "MarkaKaydıToolStripMenuItem"
-        Me.MarkaKaydıToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.MarkaKaydıToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
         Me.MarkaKaydıToolStripMenuItem.Text = "Marka Kaydı"
         '
         'ÜrünKaydıToolStripMenuItem
         '
         Me.ÜrünKaydıToolStripMenuItem.Name = "ÜrünKaydıToolStripMenuItem"
         Me.ÜrünKaydıToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.U), System.Windows.Forms.Keys)
-        Me.ÜrünKaydıToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ÜrünKaydıToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
         Me.ÜrünKaydıToolStripMenuItem.Text = "Ürün Kaydı"
         '
         'YeniKullanıcıKaydıToolStripMenuItem
         '
         Me.YeniKullanıcıKaydıToolStripMenuItem.Name = "YeniKullanıcıKaydıToolStripMenuItem"
-        Me.YeniKullanıcıKaydıToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.YeniKullanıcıKaydıToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
         Me.YeniKullanıcıKaydıToolStripMenuItem.Text = "Yeni Kullanıcı Kaydı"
         '
         'AramalarToolStripMenuItem
@@ -118,7 +118,7 @@ Partial Class AnaForm
         'ÜrünAramaToolStripMenuItem
         '
         Me.ÜrünAramaToolStripMenuItem.Name = "ÜrünAramaToolStripMenuItem"
-        Me.ÜrünAramaToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ÜrünAramaToolStripMenuItem.Size = New System.Drawing.Size(171, 26)
         Me.ÜrünAramaToolStripMenuItem.Text = "Ürün Arama"
         '
         'KisaYolToolStrip
@@ -131,17 +131,6 @@ Partial Class AnaForm
         Me.KisaYolToolStrip.TabIndex = 1
         Me.KisaYolToolStrip.Text = "ToolStrip1"
         '
-        'ToolStripButton2
-        '
-        Me.ToolStripButton2.AutoSize = False
-        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
-        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(50, 50)
-        Me.ToolStripButton2.Text = "Stok Çıkış"
-        '
         'ToolStripButton3
         '
         Me.ToolStripButton3.AutoSize = False
@@ -152,6 +141,17 @@ Partial Class AnaForm
         Me.ToolStripButton3.Name = "ToolStripButton3"
         Me.ToolStripButton3.Size = New System.Drawing.Size(50, 50)
         Me.ToolStripButton3.Text = "Stok Giriş"
+        '
+        'ToolStripButton2
+        '
+        Me.ToolStripButton2.AutoSize = False
+        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
+        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton2.Name = "ToolStripButton2"
+        Me.ToolStripButton2.Size = New System.Drawing.Size(50, 50)
+        Me.ToolStripButton2.Text = "Stok Çıkış"
         '
         'PBoxResim
         '
