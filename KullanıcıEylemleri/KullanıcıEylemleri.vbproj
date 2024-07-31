@@ -156,6 +156,9 @@
     <EmbeddedResource Include="SifremiUnuttumFormu.resx">
       <DependentUpon>SifremiUnuttumFormu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UrunArama.resx">
+      <DependentUpon>UrunArama.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">

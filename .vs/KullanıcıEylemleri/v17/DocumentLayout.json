@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BERIKA\\Desktop\\dersler\\my\\calismalarim\\Kullan\u0131c\u0131Eylemleri\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F48594A6-B100-43D2-8D1A-8C738894A4A1}|Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri.vbproj|c:\\users\\berika\\desktop\\dersler\\my\\calismalarim\\kullan\u0131c\u0131eylemleri\\kullan\u0131c\u0131eylemleri\\baglanti.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F48594A6-B100-43D2-8D1A-8C738894A4A1}|Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri.vbproj|solutionrelative:kullan\u0131c\u0131eylemleri\\baglanti.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48594A6-B100-43D2-8D1A-8C738894A4A1}|Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri.vbproj|c:\\users\\berika\\desktop\\dersler\\my\\calismalarim\\kullan\u0131c\u0131eylemleri\\kullan\u0131c\u0131eylemleri\\urunkayit.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F48594A6-B100-43D2-8D1A-8C738894A4A1}|Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri.vbproj|solutionrelative:kullan\u0131c\u0131eylemleri\\urunkayit.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Baglanti.vb",
+              "DocumentMoniker": "C:\\Users\\BERIKA\\Desktop\\dersler\\my\\calismalarim\\Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri\\Baglanti.vb",
+              "RelativeDocumentMoniker": "Kullan\u0131c\u0131Eylemleri\\Baglanti.vb",
+              "ToolTip": "C:\\Users\\BERIKA\\Desktop\\dersler\\my\\calismalarim\\Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri\\Baglanti.vb",
+              "RelativeToolTip": "Kullan\u0131c\u0131Eylemleri\\Baglanti.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-31T23:04:03.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UrunKayit.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\BERIKA\\Desktop\\dersler\\my\\calismalarim\\Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri\\UrunKayit.vb",
+              "RelativeDocumentMoniker": "Kullan\u0131c\u0131Eylemleri\\UrunKayit.vb",
+              "ToolTip": "C:\\Users\\BERIKA\\Desktop\\dersler\\my\\calismalarim\\Kullan\u0131c\u0131Eylemleri\\Kullan\u0131c\u0131Eylemleri\\UrunKayit.vb [Design]*",
+              "RelativeToolTip": "Kullan\u0131c\u0131Eylemleri\\UrunKayit.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-31T21:43:22.947Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
